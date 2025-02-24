@@ -14,7 +14,7 @@ def hollow_square(n):
 def number_pattern(n):
         for n in range(1,5):
           for j in range (1,n+1):
-            print(j, end="")
+            return(j, end="")
           print(" ")
 
 # Example: For n = 5, sum = 1 + 2 + 3 + 4 + 5 = 15
