@@ -12,7 +12,10 @@ def hollow_square(n):
 # 123
 # 1234
 def number_pattern(n):
-    return ""
+        for n in range(1,5):
+          for j in range (1,n+1):
+            print(j, end="")
+          print(" ")
 
 # Example: For n = 5, sum = 1 + 2 + 3 + 4 + 5 = 15
 def sum_of_natural_numbers(n):
